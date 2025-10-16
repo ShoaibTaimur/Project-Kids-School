@@ -59,7 +59,7 @@ Here’s a preview of the **Hero** and **Curriculum** sections from the design:
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/shoaibtaimur/Project-Kids-School.git
-````
+
 
 2. **Navigate to the project directory**
 
