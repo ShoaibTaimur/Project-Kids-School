@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+}
+header {
+  padding-left: 135px;
+  padding-right: 135px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_info {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  padding: 0px;
+}
+nav ul li {
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.logo {
+  width: 62px;
+  height: 62px;
+}
+.info {
+  color: rgba(17, 17, 17, 1);
+  font-family: Quicksand;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.contact-btn {
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  background: rgba(254, 163, 1, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  border: 0;
+}
+.banner {
+  padding-left: 135px;
+  padding-right: 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+  height: auto;
+  gap: 24px;
+}
+.banner-title {
+  height: auto;
+  font-family: Quicksand;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 61px;
+  text-align: left;
+}
+.banner-subtitle {
+  color: rgba(17, 17, 17, 1);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-btn {
+  width: 197px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(17, 17, 17, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.banner-pic {
+  width: 468.61px;
+  height: 575px;
+}
+
+/* Extra large devices (large laptops and desktops) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  header {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  .info {
+    font-size: 26px;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .banner {
+    padding-left: 90px;
+    padding-right: 90px;
+    gap: 10px;
+  }
+  .contact-btn {
+    width: 140px;
+    height: 40px;
+  }
+  .banner-title {
+    font-size: 48px;
+  }
+  .banner-subtitle {
+    font-size: 18px;
+  }
+  .banner-btn {
+    width: 140px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .banner-pic {
+    width: 400.61px;
+    height: 500px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  nav ul {
+    gap: 13px;
+  }
+  .info {
+    font-size: 26px;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .banner {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+  }
+  .contact-btn {
+    width: 140px;
+    height: 40px;
+  }
+  .banner-title {
+    font-size: 40px;
+    line-height: normal;
+  }
+  .banner-subtitle {
+    font-size: 16px;
+  }
+  .banner-btn {
+    width: 140px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .banner-pic {
+    width: 380.61px;
+    height: 400px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nav {
+    gap: 10px;
+  }
+  nav ul {
+    gap: 10px;
+  }
+  nav ul li {
+    font-size: 16px;
+  }
+  .info {
+    font-size: 20px;
+  }
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  .banner {
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+  }
+  .contact-btn {
+    width: 100px;
+    height: 35px;
+    padding: 6px;
+    font-size: 15px;
+  }
+  .banner-title {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .banner-subtitle {
+    font-size: 14px;
+  }
+  .banner-btn {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    padding: 6px;
+  }
+  .banner-pic {
+    width: 330.61px;
+    height: 300px;
+  }
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 599px) {
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nav {
+    gap: 10px;
+  }
+  nav ul {
+    gap: 10px;
+  }
+  nav ul li {
+    font-size: 16px;
+  }
+  .info {
+    font-size: 20px;
+  }
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  .banner {
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    flex-direction: column-reverse;
+  }
+  .contact-btn {
+    width: 100px;
+    height: 35px;
+    padding: 6px;
+    font-size: 15px;
+  }
+  .banner-info {
+    width: 357px;
+    align-items: center;
+  }
+  .banner-title {
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+  }
+  .banner-subtitle {
+    font-size: 14px;
+    text-align: center;
+  }
+  .banner-btn {
+    width: 131px;
+    height: 42px;
+    font-size: 16px;
+    padding: 6px;
+  }
+  .banner-pic {
+    width: 336.58px;
+    height: 413px;
+  }
+  /* Hide normal nav content initially */
+.nav ul,
+.nav .contact-btn {
+  display: none;
+}
+
+header,
+.nav {
+  position: relative;
+  overflow: visible;
+  z-index: 5;
+}
+
+/* Hamburger icon */
+.nav::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  background: url("../assets/hamburger-menu.png") no-repeat center;
+  background-size: contain;
+  cursor: pointer;
+  z-index: 20;
+}
+
+/* Show dropdown on hover */
+.nav:hover {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Show menu and button */
+.nav:hover ul,
+.nav:hover .contact-btn {
+  display: flex;
+}
+
+/* Dropdown container (shared background for ul + button) */
+.nav:hover ul {
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding: 15px 0;
+  gap: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+/* Contact button directly below li's, same white box */
+.nav:hover .contact-btn {
+  background: rgba(254, 163, 1, 1);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px; /* small gap within white box */
+}
+
+/* Each list item full width and centered */
+.nav ul li {
+  width: 100%;
+  text-align: center;
+  background: #fff;
+}
+
+
+}
