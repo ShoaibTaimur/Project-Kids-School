@@ -77,5 +77,5 @@ Here’s a preview of the **Hero** and **Curriculum** sections from the design:
 **Shoaib Taimur**
 GitHub: [shoaibtaimur](https://github.com/shoaibtaimur)
 
-```
+
 
