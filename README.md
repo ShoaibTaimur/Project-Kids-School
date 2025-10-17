@@ -12,20 +12,6 @@ This project emphasizes simplicity, accessibility, and responsiveness — perfec
 
 ---
 
-## 🧩 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Setup Instructions](#setup-instructions)
-- [Customization](#customization)
-- [Deployment](#deployment)
-- [Inspiration & Credits](#inspiration--credits)
-- [License](#license)
-- [Author](#author)
-
----
-
 ## 🌟 Overview
 
 **Kids Education – School Website** is a front-end project designed for an educational institution that wants to present its information in a clean, vibrant, and responsive layout.  
